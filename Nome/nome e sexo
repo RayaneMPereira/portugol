@@ -1,4 +1,4 @@
-algoritmo "nome"
+algoritmo "nome e sexo"
 
 var
   nome, sexo: caractere
