@@ -11,15 +11,15 @@ inicio
   leia (sexo)
 
   se (sexo = "feminino") entao
-    escreval("Sra.", nome)
+    escreval("Sra. ", nome)
   senao
-    escreval ("Sr.")
+    escreval ("Sr. ")
   fimse
 
   se (sexo = "masculino") entao
-    escreval ("Sr.", nome)
+    escreval ("Sr. ", nome)
   senao
-    escreval ("Sra.")
+    escreval ("Sra. ")
   fimse
   
 fimalgoritmo
