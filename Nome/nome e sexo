@@ -6,17 +6,20 @@ var
 inicio
   escreval ("Informe o nome")
   leia (nome)
+
   escreval ("Informe o sexo")
   leia (sexo)
+
   se (sexo = "feminino") entao
     escreval("Sra.", nome)
   senao
     escreval ("Sr.")
+  fimse
+
   se (sexo = "masculino") entao
     escreval ("Sr.", nome)
   senao
     escreval ("Sra.")
-
-  fimse 
   fimse
-  fimalgoritmo
+  
+fimalgoritmo
