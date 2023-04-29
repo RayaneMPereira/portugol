@@ -4,8 +4,10 @@ var
   nome, sexo: caractere
 
 inicio
-  escreval ("Entre com um nome")
-  leia (nome, sexo)
+  escreval ("Informe o nome")
+  leia (nome)
+  escreval ("Informe o sexo")
+  leia (sexo)
   se (sexo = "feminino") entao
     escreval("Sra.", nome)
   senao
