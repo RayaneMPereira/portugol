@@ -1,0 +1,20 @@
+algoritmo "nome"
+
+var
+  nome, sexo: caractere
+
+inicio
+  escreval ("Entre com um nome")
+  leia (nome, sexo)
+  se (sexo = "feminino") entao
+    escreval("Sra.", nome)
+  senao
+    escreval ("Sr.")
+  se (sexo = "masculino") entao
+    escreval ("Sr.", nome)
+  senao
+    escreval ("Sra.")
+
+  fimse 
+  fimse
+  fimalgoritmo
